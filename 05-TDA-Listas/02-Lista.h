@@ -81,15 +81,15 @@ T *Lista<T>::eliminar_buscado(const T *dato, int (*cmp)(const T *a, const T *b))
 	Nodo<T> **pactual = &(this->prim);
 	while(*pactual != NULL){
 		Nodo<T> *actual = *pactual;
-
+/* 
 		if(cmp(actual->get_dato(), dato)){
 			T *temp = actual->get_dato();
 			*pactual = actual->get_sig();
 			delete actual;
 			return temp;
 		}
-
-		*pactual = &(actual->get_sig());
+*/
+		pactual = &(actual->get_sig());
 	}
 
 	return NULL;

@@ -40,7 +40,7 @@ class Lista{
         Lista *interseccion(Lista *lista);
 
         void mostrar_datos()const;
-
+        int eliminardato(int dato);
 };
 
 #endif

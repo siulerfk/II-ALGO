@@ -37,7 +37,7 @@ int lista_ante_k_ultimo(Lista *lista, size_t k);
 Lista **crear_matriz_lista(size_t fil, size_t col);
 void destruir_matriz_listas(Lista **lista, size_t filas);
 Lista ***crear_cubo_lista(size_t filas, size_t col);
-void destruir_cubo_lista(Lista ***lista, size_t filas, size_t col);
+void destruir_cubo_lista(Lista ***lista, size_t filas);
 
 int main(void){
 /* 
@@ -76,42 +76,34 @@ int main(void){
 
     destruir_matriz_listas(matriz, 3);
 */    
-
     // Matriz de punteros a Lista.(seria un cubo)
     Lista ***cubo = crear_cubo_lista(4, 5);
     
+    cubo[0][0] = new Lista();
     (cubo[0][0])->agregar_pincipio(5);
     cubo[0][0]->mostrar_datos();
 
-    destruir_cubo_lista(cubo, 4, 5);
+ 
+    
+
+    destruir_cubo_lista(cubo, 4);
 
 	return 0;
 }
-
 Lista ***crear_cubo_lista(size_t filas, size_t col){
     Lista ***lista = new Lista**[filas];
 
     for(size_t i = 0; i < filas; i++)
         lista[i] = new Lista*[col];
 
-    for(size_t i = 0; i < filas; i++)
-        for(size_t j = 0; j < col; j++)
-            lista[i][j] = new Lista();
-
     return lista;
 }
-void destruir_cubo_lista(Lista ***lista, size_t filas, size_t col){
-
-    for(size_t i = 0; i < filas; i++)
-        for(size_t j = 0; j < col; j++)
-            delete lista[i][j];
-
+void destruir_cubo_lista(Lista ***lista, size_t filas){
     for(size_t i = 0; i < filas; i++)
         delete[] lista[i];
 
     delete[] lista;
 }
-
 Lista **crear_matriz_lista(size_t filas, size_t col){
     Lista **lista = new Lista*[filas];
     

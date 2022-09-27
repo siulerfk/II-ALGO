@@ -1,3 +1,5 @@
+# 05-TDA-Lista
+## Lista de Ejercicios:
 Nota:
 	La clase no no cambia tanto en listas enlazadas como en pilas y colas
 	usar el archivo 02-Nodo.h como referencia; esté atchivo .h esta usando la
@@ -6,8 +8,8 @@ Nota:
 cd ~/.local/share/nvim/swap/
 
 
-01.cpp
-    Clases lista enlazada/ligada simple lista nodo (sparado en archivos. Makefile).
+**01.cpp**
+Clases lista enlazada/ligada simple lista nodo (sparado en archivos. Makefile).
 
     Diseñar la clase ListaEnteros con los siguientes métodos:
         *- Constructor / Destructor
@@ -37,27 +39,31 @@ cd ~/.local/share/nvim/swap/
     - Es importante que cada método tenga explícitas las PRE y POST condiciones.
     - [1] (min 56) https://www.youtube.com/watch?v=0dD0mojBAfI&t=3275s
 
-02.cpp
+**02.cpp**
+    Se quiso agregar una primitava mas eliminar_buscado con punteros dobles; no se sabe por que 
+    falla la asignacion del doble puntero(error). 
 	(no terminado similar al 04.cpp)   Iterador
 	Lista enlazada con dato (void *), template y lista tiene un contador y un Nodo principio / fin
 
-03.cpp
+**03.cpp**
 	Entendimiento de como funcionan el pasaje por referencia y punteros (direccion de memoria).
 	Diferencia entre:
 		void funcion_1(char* &var)
 		void funcion_1(char * var)
 
-04.cpp
+**04.cpp**
 	TDA Lista enlazada itereador, esta hecho en clase con modificaines mias.
 
-05.cpp 
+**05.cpp** 
 	TDA Lista enlazada itereador, esta hecho en clase sin modificaciones. ejemplos
 
-06.cpp
+**06.cpp**
 	TDA Pila
 
-07.cpp
+**07.cpp**
     TDA lista enlazada simple en varios archivos usando (void *dato) para
     guardar la informacion del nodo. Tambien se usa punteros a funciones para
     comparar entre los datos del Nodo.
     Se encontro una manera de compilar mas eficiente, ver archivo principal.
+
+

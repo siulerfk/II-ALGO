@@ -1,6 +1,6 @@
 PROGRAM = main
 CC = g++
-CFLAGS = -Wall -pedantic
+CFLAGS = -Wall -pedantic -g
 
 all: $(PROGRAM) #compila todas las ordenes
 
