@@ -1,8 +1,8 @@
 # 05-TDA-Lista
 ## Lista de Ejercicios:
 Nota:
-	La clase no no cambia tanto en listas enlazadas como en pilas y colas
-	usar el archivo 02-Nodo.h como referencia; esté atchivo .h esta usando la
+	La clase no cambia tanto en listas enlazadas como en pilas y colas
+	usar el archivo 02-Nodo.h como referencia; esté atchivo .h está usando la
 	plantilla template
 
 cd ~/.local/share/nvim/swap/
@@ -62,8 +62,28 @@ Clases lista enlazada/ligada simple lista nodo (sparado en archivos. Makefile).
 
 **07.cpp**
     TDA lista enlazada simple en varios archivos usando (void *dato) para
-    guardar la informacion del nodo. Tambien se usa punteros a funciones para
-    comparar entre los datos del Nodo.
-    Se encontro una manera de compilar mas eficiente, ver archivo principal.
+    guardar la información del nodo. También se usa punteros a funciones para
+    Comparar entre los datos del Nodo.
+    Se encontró una manera de compilar más eficiente, ver archivo principal.
 
+**09-Nodo.h**
+**09-Lista.h**
+**09-main.cpp**
+    TDA LISTA y  NODO. Sin Modificaciones. Hecho en clase sacado de:
+    Idente el codigo de acuerdo a mis gustos, sin realizar cambios internos.
+    https://github.com/mtugnarelli/estructuras-lista-cpp
+    main.cpp es un bre ejemplo.
 
+**10-Pila.h**
+    TDA PILA. Sacado de: (sin modificaciones)
+    https://github.com/mtugnarelli/estructuras-pila-cpp
+
+**11-Astronomo.h**
+**11-Estrella.h**
+**11-main.cpp**
+    Se usa el tipo de dato Lista (se usa el **09-Lista.h**). En sus Nodos se guarda un TDA Estrella.
+    https://github.com/mtugnarelli/uso-estructuras-astronomia
+
+**12-Mensajero**
+    Solo se se leyo el código. No se se realizaron cambios. Agrego una imgen de interprestacion.
+    https://github.com/mtugnarelli/uso-estructuras-mensajeria
