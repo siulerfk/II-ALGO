@@ -1,0 +1,71 @@
+Ingrese una Posicion para la celula:(un numero negativo para terminar) 
+Posicion Fila entre [1-20]: Posicion Columna entre [1-80]: f:1  c:4
+
+Ingrese una Posicion para la celula:(un numero negativo para terminar) 
+Posicion Fila: Posicion Columna: f:2  c:3
+
+Ingrese una Posicion para la celula:(un numero negativo para terminar) 
+Posicion Fila: Posicion Columna: f:2  c:4
+
+Ingrese una Posicion para la celula:(un numero negativo para terminar) 
+Posicion Fila: Posicion Columna: f:2  c:5
+
+Ingrese una Posicion para la celula:(un numero negativo para terminar) 
+Posicion Fila: Posicion Columna: f:3  c:4
+
+Ingrese una Posicion para la celula:(un numero negativo para terminar) 
+Posicion Fila: Posicion Columna: 
+**********
+****X*****
+***XXX****
+****X*****
+**********
+**********
+**********
+**********
+**********
+**********
+Celulas Vivas: 5			Celulas Muertas: 95
+Celulas Nacidas Ultimo Turno: 0		Celulas Muertas Ultimo Turno: 0
+Prom Nacimentos Total: 0		Prom Muertes Total: 0
+**********
+***XXX****
+***X*X****
+***XXX****
+**********
+**********
+**********
+**********
+**********
+**********
+Celulas Vivas: 8			Celulas Muertas: 92
+Celulas Nacidas Ultimo Turno: 4		Celulas Muertas Ultimo Turno: 1
+Prom Nacimentos Total: 4		Prom Muertes Total: 1
+****X*****
+***X*X****
+**X***X***
+***X*X****
+****X*****
+**********
+**********
+**********
+**********
+**********
+Celulas Vivas: 8			Celulas Muertas: 92
+Celulas Nacidas Ultimo Turno: 4		Celulas Muertas Ultimo Turno: 4
+Prom Nacimentos Total: 4		Prom Muertes Total: 2
+****X*****
+***XXX****
+**XX*XX***
+***XXX****
+****X*****
+**********
+**********
+**********
+**********
+**********
+Celulas Vivas: 12			Celulas Muertas: 88
+Celulas Nacidas Ultimo Turno: 4		Celulas Muertas Ultimo Turno: 0
+Prom Nacimentos Total: 4		Prom Muertes Total: 1
+Ingrese una Posicion para la celula:(un numero negativo para terminar) 
+Posicion Fila entre [1-20]: 

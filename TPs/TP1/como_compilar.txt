@@ -1,0 +1,4 @@
+g++ -Wall -pedantic -std=c++98 *.cpp -o main
+./main < entada.txt             // solo funciona para la version donde NO esta el while main
+./main < entrada.txt >> fer.txt
+
